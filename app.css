@@ -1,0 +1,39 @@
+body {
+	font-family: Helvetica;
+	background-color: #000639;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	padding-top: 55px;
+}
+
+#green-line {
+	color: #7AB55C;
+	width: 3px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 16px;
+	color: white;
+	padding-top: 30px;
+}
+
+.form-control {
+	font-size: 16px;
+	color: #7B7B7B;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+	background-color: #5c6ac4;
+	border-color: #5c6ac4;
+	margin-top: 10px;
+}
+
