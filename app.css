@@ -22,6 +22,10 @@ h2 {
 	padding-top: 30px;
 }
 
+.container {
+	margin: 0 auto;
+}
+
 .form-control {
 	font-size: 16px;
 	color: #7B7B7B;
@@ -34,6 +38,5 @@ h2 {
 .btn-primary:focus {
 	background-color: #5c6ac4;
 	border-color: #5c6ac4;
-	margin-top: 10px;
 }
 
