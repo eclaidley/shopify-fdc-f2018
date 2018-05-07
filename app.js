@@ -6,9 +6,9 @@ var submissionHeader = document.querySelector("#submission-header");
 var submissionForm = document.querySelector("#submission-form");
 
 // after clicking "Sign Up" button, ensure user's email is valid
-signUp.addEventListener("click", function(e){
+signUp.addEventListener("click", function(event){
 	// prevents page reload upon submission of form
-	e.preventDefault();
+	event.preventDefault();
 	validEmail();
 });
 
