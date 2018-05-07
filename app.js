@@ -21,6 +21,8 @@ function validEmail(){
 		console.log(emailInput.value);
 		console.log(userInterest.value);
 		submittingButton();
+		// prevents button from being pressed multiple times during submission
+		signUp.disabled = true;
 		// keeps "Submitting..." button up for 2 seconds
 		setTimeout(function() {
 			successfulSubmission();
