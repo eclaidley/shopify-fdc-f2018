@@ -14,6 +14,8 @@ function validEmail(){
 	var emailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 	if(emailInput.value.match(emailFormat)){
 		alertMsg.innerHTML = "";
+		console.log(emailInput.value);
+		console.log(userInterest.value);
 		// change "Sign Up" button text to "Submitting..."
 		signUp.innerHTML = "Submitting...";
 	}
